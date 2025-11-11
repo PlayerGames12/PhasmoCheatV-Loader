@@ -26,7 +26,7 @@ namespace PhasmoCheatV_Loader
         private int currentIndex = 0;
         public static string logs = "";
 
-        public static string versionSig = "30 2E 31 34 2E 32 2E 31";
+        public static string versionSig = "30 2E 31 ?? 2E ?? 2E ??";
         string version = MemoryScanner.FindVersion("Phasmophobia", versionSig);
 
         private int notificalState = 0;
@@ -383,4 +383,5 @@ namespace PhasmoCheatV_Loader
             faq2.ShowDialog();
         }
     }
+
 }
